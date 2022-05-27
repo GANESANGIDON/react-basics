@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: url("./components/assets/custom-cursor-2.png"), auto;
+}
+
+.egImage {
+  width: 260px;
+  height: 180px;
+}
+
+#mouseBg {
+  position: fixed;
+  z-index: 1000;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 3px solid red;
+  transition: all 0.1s;
+  pointer-events: none;
+  background-color: transparent;
+}

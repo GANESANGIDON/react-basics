@@ -1,0 +1,53 @@
+#homeNavBar {
+  top: 30px;
+  position: fixed;
+  background-color: rgb(150, 190, 224);
+  z-index: 100;
+  padding: 5px;
+}
+
+.homeNavLinks {
+  margin: 0px 6px;
+  padding: 5px 5px;
+  border-radius: 5px;
+  color: rgb(38, 41, 41);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.homeNavLinks:hover {
+  background-color: aqua;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+}
+
+.homeSection {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 3px solid blue;
+}
+
+.homePara {
+  font: 600 20px arial, sans-serif;
+}
+
+@media (min-width: 768px) {
+  #homeNavBar {
+    top: 35px;
+    padding: 5px 10px;
+  }
+  .homeSection {
+    flex-direction: row;
+  }
+  .homeNavLinks {
+    font-size: 16px;
+  }
+}

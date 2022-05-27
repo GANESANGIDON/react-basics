@@ -1,0 +1,17 @@
+.para{
+  background-color: rgb(108, 230, 230);
+  margin-top:  20px;
+  margin-left: 10px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+button{
+  margin:  5px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  background-color: rgb(253, 173, 24);
+  cursor: pointer;
+}
