@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "imgSrc": "imgs/images1.jpg",
+    "name": "Ganesan R",
+    "designation": "Frontend Web Developer"
+  },
+  {
+    "id": "2",
+    "imgSrc": "imgs/images2.png",
+    "name": "Santhosh Sivan A",
+    "designation": "Fullstack Web Developer"
+  },
+  {
+    "id": "3",
+    "imgSrc": "imgs/images3.png",
+    "name": "John Doe",
+    "designation": "Backend Web Developer"
+  },
+  {
+    "id": "4",
+    "imgSrc": "imgs/images4.png",
+    "name": "Anton Francis",
+    "designation": "Ui/Ux designer"
+  }
+]

@@ -12,6 +12,7 @@ import {
 } from 'react-scroll-motion'
 import './css/Home.css'
 import {desert, drStrange,mirrorDimension,mountains} from './assets/images';
+
 export default function Home() {
   return (
     <React.Fragment>
